@@ -3,7 +3,7 @@
     "name": "fireeye-miner-test",
     "author": "Mohamad Ali Khairi/Tyrell",
     "author_email": "alikhairi@outlook.com",
-    "description": "MineMeld node extension for mining IOCs from Fireeye iSight",
+    "description": "MineMeld node extension for mining IOCs from Fireeye iSight - Test",
     "url": "https://github.com/alikhairi/fireeye-miner",
     "entry_points": {
         "minemeld_nodes": {
