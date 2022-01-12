@@ -1,6 +1,6 @@
 {
     "version": "0.2",
-    "name": "fireeye-miner",
+    "name": "fireeye-miner-test",
     "author": "Mohamad Ali Khairi",
     "author_email": "alikhairi@outlook.com",
     "description": "MineMeld node extension for mining IOCs from Fireeye iSight",
