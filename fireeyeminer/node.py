@@ -64,12 +64,17 @@ class Miner(BasePollerFT):
         conn.close()
         indicators = self.indicators.split(',')
         iocs = []
-        for indicator in indicators:
-            for message in data['message']:
+        try:
+         for indicator in indicators:
+            try:
+             for message in data['message']:
                 if message[indicator]:
                     iocs.append(message[indicator])
-        return iocs
-    
+            except Exception:
+             pass
+         return iocs
+        except Exception:
+             pass
     
     def _process_item(self, item):
         indicator = item
