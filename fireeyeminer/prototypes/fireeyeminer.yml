@@ -23,7 +23,7 @@ prototypes:
       public_key : '<Enter your Public key here>'
       private_key : '<Enter your Private key here>'
       numdays : 7
-      source_name: fireeyeminer.isight
+      source_name: fireeyeminer.isightTest
       # age out of indicators
       # disabled, removed when they disappear from the channel
       age_out:
